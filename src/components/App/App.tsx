@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import fetchMovies from "../services/movieService";
+import fetchMovies from "../../services/movieService";
 import SearchBar from "../SearchBar/SearchBar";
 import MovieGrid from "../MovieGrid/MovieGrid";
 import Loader from "../Loader/Loader";
@@ -8,7 +8,7 @@ import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import { Toaster } from "react-hot-toast";
 import toast from "react-hot-toast";
 
-import type { Movie } from "../types/movie";
+import type { Movie } from "../../types/movie";
 import MovieModal from "../MovieModal/MovieModal";
 
 function App() {
