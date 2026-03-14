@@ -10,8 +10,6 @@ interface MovieModalProps {
 }
 
 function MovieModal({ movie, onClose }: MovieModalProps) {
-  // const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
-
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.code === "Escape") {

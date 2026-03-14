@@ -8,7 +8,7 @@ interface MovieGridProps {
 
 function MovieGrid({ movies, onSelect }: MovieGridProps) {
   if (movies.length === 0) {
-    return null; // ✅ валідний React-вузол
+    return null;
   }
 
   return (
